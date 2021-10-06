@@ -60,16 +60,6 @@ public class Game {
 		}
 	}
 	
-	static int[][] wins = {
-			{1,2,3},
-			{4,5,6},
-			{7,8,9},
-			{1,4,7},
-			{2,5,8},
-			{3,6,9},
-			{1,5,9},
-			{3,5,7}
-	};
 	public static char checkWin() {
 		if((board[0][0]=='X' && board[0][2]=='X' && board[0][4]=='X')||(board[0][0]=='O' && board[0][2]=='O' && board[0][4]=='O')) {
 			return board[0][0];
